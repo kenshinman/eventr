@@ -23,7 +23,7 @@ export default function Home() {
       </section>
       <div id="events" className="wrapper my-a fle flex-col gap-8 md:gap-12">
         <h2 className="h2-bold">
-          Trusted by<br />tThousands of Events
+          Trusted by<br />Thousands of Events
         </h2>
         <div className="flex w-full flex-col gap-5 md:flex-row">
           Search
