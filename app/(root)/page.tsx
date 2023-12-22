@@ -1,6 +1,6 @@
-import {Button} from "@/components/ui/button"
-import Image from 'next/image'
-import Link from "next/link"
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,24 +12,32 @@ export default function Home() {
               Host, Connect, Celebrate: Your Events, Our Platform!
             </h1>
             <p className="p-regular-20 md:p-regular-24">
-              Book and learn about the best venues and vendors for your events. Your events will have a lasting impact!
+              Book and learn about the best venues and vendors for your events.
+              Your events will have a lasting impact!
             </p>
             <Button size="lg" asChild className="button w-full sm:w-fit">
               <Link href="#events">Explore now</Link>
             </Button>
           </div>
-          <Image src="/assets/images/hero.png" width={1000} height={1000} alt="hero" className="max-h-[70vh] object-contain object-center 2xl:max-h-[50vh]" />
+          <Image
+            src="/assets/images/hero.png"
+            width={1000}
+            height={1000}
+            alt="hero"
+            className="max-h-[70vh] object-contain object-center 2xl:max-h-[50vh]"
+          />
         </div>
       </section>
       <div id="events" className="wrapper my-a fle flex-col gap-8 md:gap-12">
         <h2 className="h2-bold">
-          Trusted by<br />Thousands of Events
+          Trusted by
+          <br />
+          Thousands of Events
         </h2>
         <div className="flex w-full flex-col gap-5 md:flex-row">
-          Search
-          CategoryFilter
+          Search CategoryFilter
         </div>
       </div>
     </>
-  )
+  );
 }

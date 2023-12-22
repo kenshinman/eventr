@@ -1,12 +1,8 @@
-import React from 'react'
-import {
-  Sheet,
-  SheetContent,
-  SheetTrigger,
-} from "@/components/ui/sheet"
-import Image from "next/image"
-import {Separator} from "../ui/separator"
-import {NavItems} from "./NavItems"
+import React from "react";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import Image from "next/image";
+import { Separator } from "../ui/separator";
+import { NavItems } from "./NavItems";
 
 export const MobileNav = () => {
   return (
@@ -33,9 +29,6 @@ export const MobileNav = () => {
           <NavItems />
         </SheetContent>
       </Sheet>
-
-
-
     </nav>
-  )
-}
+  );
+};
